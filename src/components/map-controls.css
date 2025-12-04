@@ -1,0 +1,5 @@
+.map-controls{display:flex;flex-direction:column;gap:10px;padding:12px;border-radius:10px}
+.mc-row{display:flex;justify-content:space-between;align-items:center}
+.mc-row label{color:#bcdff4;font-weight:700}
+.mc-btn{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#cfe8ff;cursor:pointer}
+.mc-btn.on{background:linear-gradient(90deg,var(--accent1),var(--accent2)); color:#041018}

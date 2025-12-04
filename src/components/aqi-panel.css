@@ -1,0 +1,56 @@
+/* src/components/aqi-panel.css
+   Simple premium styles for the AQI panel used by ForecastPage.
+   Paste exactly and save.
+*/
+
+.aqi-panel {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+  border: 1px solid rgba(255,255,255,0.04);
+  color: #e6f3ff;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(2,6,12,0.45);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.aqi-panel .title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #cfe8ff;
+}
+
+.aqi-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.aqi-value {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-radius: 10px;
+  min-width: 64px;
+  text-align: center;
+  color: #0b1b2b;
+  background: linear-gradient(180deg,#00dab0,#1ea0ff); /* default bg for good */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+}
+
+.aqi-desc {
+  margin-left: 8px;
+  font-size: 13px;
+  color: #c9e6ff;
+}
+
+/* colors for categories */
+.aqi-good { background: linear-gradient(180deg,#39D353,#15B86A); color: #042a14; }
+.aqi-moderate { background: linear-gradient(180deg,#FFD36E,#FFB84A); color:#2b1600; }
+.aqi-unhealthy { background: linear-gradient(180deg,#FF7A6B,#FF4B3D); color:#2b0b00; }
+.aqi-veryunhealthy { background: linear-gradient(180deg,#C64CF2,#9B2BE5); color:#fff; }
+
+.aqi-box{background:rgba(0,0,0,0.28);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+.aqi-value{display:inline-block;padding:8px 12px;border-radius:10px;font-weight:800;color:#08141a}

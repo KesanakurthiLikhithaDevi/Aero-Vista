@@ -1,0 +1,10 @@
+/* src/components/mapselector.css */
+.map-selector { width:100%; }
+.map-search-row { display:flex; gap:12px; margin-bottom:10px; }
+.map-search-input { flex:1; padding:10px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.06); background:rgba(0,0,0,0.4); color:var(--text); }
+.btn.small { padding:8px 12px; border-radius:10px; background:linear-gradient(90deg,#11d3b0,#2b9bff); color:#02202a; font-weight:700; border:none; cursor:pointer; }
+.map-box { border-radius:10px; overflow:hidden; border:1px solid rgba(255,255,255,0.03); }
+
+/* small styling for popup buttons if your theme doesn't have btn classes */
+.btn.ghost { background: rgba(255,255,255,0.03); color: var(--text); border:1px solid rgba(255,255,255,0.04); padding:6px 10px; border-radius:8px; cursor:pointer; }
+.btn.primary { background: linear-gradient(90deg,#11d3b0,#2b9bff); color:#02202a; padding:6px 10px; border-radius:8px; border:none; cursor:pointer; }

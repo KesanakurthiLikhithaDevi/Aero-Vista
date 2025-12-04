@@ -1,0 +1,7 @@
+.hourly-panel{background:rgba(255,255,255,0.01);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+.hourly-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.hourly-controls button{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);padding:6px 8px;border-radius:6px;cursor:pointer}
+.hourly-bars{display:flex;gap:10px;align-items:end;padding:6px 0}
+.hour-bar{display:flex;flex-direction:column;align-items:center;width:46px}
+.hour-bar .bar{width:100%;background:linear-gradient(180deg,#2b9cff,#14d6c1);border-radius:6px}
+.hour-label{font-size:11px;color:var(--muted);margin-top:6px}

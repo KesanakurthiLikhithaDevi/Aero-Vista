@@ -1,0 +1,85 @@
+.hero { padding:48px 0 60px 0; }
+.hero-card h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 78px;
+  line-height: 0.95;
+  margin:0 0 18px 0;
+  color: #fff;
+  text-shadow: 0 6px 30px rgba(0,0,0,0.7);
+}
+.hero-card p {
+  margin: 10px 0 20px 0;
+  color: rgba(255,255,255,0.85);
+  max-width: 760px;
+}
+.hero-actions { margin-top:22px; }
+@media (max-width:900px){
+  .hero-card h1 { font-size:36px; }
+}
+/* FEATURES SECTION */
+.features-section {
+  margin-top: 80px;
+  padding: 20px 0 80px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 14px;
+  padding: 28px;
+  width: 280px;
+  backdrop-filter: blur(8px);
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.45);
+}
+
+.feature-card h3 {
+  color: #18d7c8;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.4;
+}
+/* simple reveal animation */
+.feature-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.feature-card:nth-child(1) { animation-delay: 0.2s; }
+.feature-card:nth-child(2) { animation-delay: 0.4s; }
+.feature-card:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* small extras for home page if you want separate file */
+.hero-lead{margin-top:12px;color:var(--muted);font-size:16px}
+.glass-card.large{height:140px;display:flex;flex-direction:column;justify-content:center}
